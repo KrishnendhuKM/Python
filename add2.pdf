@@ -1,0 +1,26 @@
+"""
+a = 4
+b = 5
+res = a + b
+print(res)
+"""
+"""
+a = int(input("enter the 1st number:"))
+b = int(input("enter the 2nd number:"))
+sum = a  + b
+print("sum of 2 numbers is:", sum)
+"""
+"""
+def add(a, b):
+    return a + b
+a = 5
+b = 2
+res = add(a,b)
+print(res)
+"""
+"""
+res = lambda a, b: a + b
+print(res(12, 12))
+"""
+import operator
+print(operator.add(10, 2))
