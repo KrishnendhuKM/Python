@@ -8,3 +8,4 @@ movie = "frozen"
 tickets = 5
 total_cost = movies[movie] * tickets
 print(f"total cost for {tickets} tickets of {movie} is : {total_cost}")
+    
